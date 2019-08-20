@@ -31,4 +31,8 @@ object bolichito {
 	method puedeOfrecerleAlgoA(persona) {
 		return persona.leGusta(objetoEnMostrador) or persona.leGusta(objetoEnVidriera)
 	}
+	
+	method tieneLuz() {
+		return objetoEnMostrador.material().conduceElectricidad() or objetoEnVidriera.material().conduceElectricidad() 
+	}
 }
