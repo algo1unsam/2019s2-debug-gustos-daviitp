@@ -165,4 +165,4 @@ test "La caja c/ un muñeco de 100 gramos pesa 500. Si el muñeco cambia su peso
 	assert.equals(500, cajita.peso())
 	munieco.setPeso(400)
 	assert.equals(800, cajita.peso())
-	}
+}
